@@ -3,6 +3,7 @@ Command line Python scripts for creating diverse oligonucleotide libraries from 
 
 # Create a conda environment from required_packages.txt
 `conda create --name lib-design --file required_packages.txt`
+
 `conda activate lib-design`
 
 # Format reference protein sequences from UniprotKb or Uniref
