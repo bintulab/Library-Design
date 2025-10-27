@@ -1,6 +1,10 @@
 # Library-Design
 Command line Python scripts for creating diverse oligonucleotide libraries from a set of protein tiles, including Golden Gate cloning overhangs.
 
+# Create a conda environment from required_packages.txt
+`conda create --name lib-design --file required_packages.txt`
+`conda activate lib-design`
+
 # Format reference protein sequences from UniprotKb or Uniref
 Use the scripts `uniref_fast2csv.py` or `uniprotkb_fast2csv.py` to generate Python-readable .csv files from Uniprot reference sequence and metadata. For each script, you will need a UniRef90 or a UniProtKB fasta file downloaded with all sequences of interest, an dthe corresponding UniRef or UniProtKB metadata file for human protein clusters. The third argument is the savename for your new .csv file.
 
