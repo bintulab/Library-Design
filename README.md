@@ -38,14 +38,18 @@ Example usage: `compile_dataframes.py /desired/path/to/your_final_library.csv /p
 
 # Run QC on final library to ensure GC content is within synthesis standards and codon usage largely mirrors native human proteins
 Example usage: `python qc_oligos_GC_content.py /path/to/your_final_library.csv`
+
 This script will output the percentage of tiles with GC content >60% or <35%, which may flag them during library synthesis.
 
 Example usage: `python qc_oligos_codon_usage.py /path/to/your_final_library.csv`
+
 This script will compare the codon usage across your library to human codon usage. If any codon is overrepresented by >10% compared to human use, consider re-running oligo optimization scripts.
 
 # Finish library and send for synthesis!
 Use Python to add Golden Gate cloning overhangs to the DNA sequence of each member. We recommend the following sequences:
+
 5': `CGTCTCActcc`
+
 3': `ggatGGAGACG`
 
 Then, send a final .csv file with two columns (`label` and `oligo` - a label column and a DNA sequence column) to your DNA synthesis company of choice!
