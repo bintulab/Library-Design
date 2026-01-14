@@ -1,8 +1,8 @@
 # Library-Design
 Command line Python scripts for creating diverse oligonucleotide libraries from a set of protein tiles, including Golden Gate cloning overhangs.
 
-# Create a conda environment from required_packages.txt
-`conda create --name lib-design --file required_packages.txt`
+# Create a conda environment from required_packages_Lib.txt, which will automatically name the environment
+`conda env create -f required_packages_Lib.txt`
 
 `conda activate lib-design`
 
