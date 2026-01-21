@@ -1,0 +1,26 @@
+From	Entry	Reviewed	Entry Name	Protein names	Gene Names	Organism	Length
+B2VQF8	B2VQF8	unreviewed	B2VQF8_9ADEN	DNA-binding protein (DBP) (Early 2A protein) (Early E2A DNA-binding protein)	E2A DBP	Human adenovirus D37	490
+B9A5B6	B9A5B6	unreviewed	B9A5B6_ADE08	Pre-histone-like nucleoprotein (Pre-core protein VII) (pVII) [Cleaved into: Histone-like nucleoprotein (NP) (Core protein VII)]	L2	Human adenovirus D serotype 8 (HAdV-8) (Human adenovirus 8)	196
+D0EF42	D0EF42	unreviewed	D0EF42_ADE07	Pre-histone-like nucleoprotein (Pre-core protein VII) (pVII) [Cleaved into: Histone-like nucleoprotein (NP) (Core protein VII)]	L2	Human adenovirus B serotype 7 (HAdV-7) (Human adenovirus 7)	192
+D0EF64	D0EF64	unreviewed	D0EF64_ADE07	E4 33 kDa protein	E4	Human adenovirus B serotype 7 (HAdV-7) (Human adenovirus 7)	299
+D0Z5S8	D0Z5S8	unreviewed	D0Z5S8_ADE31	Pre-histone-like nucleoprotein (Pre-core protein VII) (pVII) [Cleaved into: Histone-like nucleoprotein (NP) (Core protein VII)]	pVII L2	Human adenovirus A serotype 31 (HAdV-31) (Human adenovirus 31)	187
+D0Z5U4	D0Z5U4	unreviewed	D0Z5U4_ADE31	E3 14.7K homologue protein	E3 14.7K	Human adenovirus A serotype 31 (HAdV-31) (Human adenovirus 31)	128
+F1DT60	F1DT60	unreviewed	F1DT60_ADE17	Packaging protein 1 (Packaging protein IVa2)	pIVa2 IVa2	Human adenovirus D serotype 17 (HAdV-17) (Human adenovirus 17)	448
+P03238	P03238	reviewed	E4RF5_ADE02	Early 4 ORF6/7 control protein (E4-ORF6/7) (Early E4 17 kDa protein)		Human adenovirus C serotype 2 (HAdV-2) (Human adenovirus 2)	150
+P03255	P03255	reviewed	E1A_ADE05	Early E1A protein (Early E1A 32 kDa protein)		Human adenovirus C serotype 5 (HAdV-5) (Human adenovirus 5)	289
+P03256	P03256	reviewed	E1A_ADE07	Early E1A protein (Early E1A 28 kDa protein)		Human adenovirus B serotype 7 (HAdV-7) (Human adenovirus 7)	261
+P03259	P03259	reviewed	E1A_ADE12	Early E1A protein (Early E1A 29.5 kDa protein)		Human adenovirus A serotype 12 (HAdV-12) (Human adenovirus 12)	266
+P03264	P03264	reviewed	DNB2_ADE02	DNA-binding protein (DBP) (Early 2A protein) (Early E2A DNA-binding protein)	DBP	Human adenovirus C serotype 2 (HAdV-2) (Human adenovirus 2)	529
+P03272	P03272	reviewed	PKG1_ADE02	Packaging protein 1 (Packaging protein IVa2)	IVa2	Human adenovirus C serotype 2 (HAdV-2) (Human adenovirus 2)	449
+P03273	P03273	reviewed	PKG1_ADE07	Packaging protein 1 (Packaging protein IVa2)	IVa2	Human adenovirus B serotype 7 (HAdV-7) (Human adenovirus 7)	448
+P04497	P04497	reviewed	DNB2_ADE07	DNA-binding protein (DBP) (Early 2A protein) (Early E2A DNA-binding protein)	DBP	Human adenovirus B serotype 7 (HAdV-7) (Human adenovirus 7)	517
+P04498	P04498	reviewed	DNB2_ADE12	DNA-binding protein (DBP) (Early 2A protein) (Early E2A DNA-binding protein)	DBP	Human adenovirus A serotype 12 (HAdV-12) (Human adenovirus 12)	484
+P0C6L3	P0C6L3	reviewed	SHDAG_HDVD3	Small delta antigen (S-HDAg) (p24)		Hepatitis delta virus genotype I (isolate D380) (HDV)	195
+P11315	P11315	reviewed	E3145_ADE03	Early E3 15.3 kDa protein		Human adenovirus B serotype 3 (HAdV-3) (Human adenovirus 3)	136
+P12540	P12540	reviewed	PKG1_ADE12	Packaging protein 1 (Packaging protein IVa2)	IVa2	Human adenovirus A serotype 12 (HAdV-12) (Human adenovirus 12)	452
+P36710	P36710	reviewed	E434_ADE12	Early E4 34 kDa protein		Human adenovirus A serotype 12 (HAdV-12) (Human adenovirus 12)	291
+P68950	P68950	reviewed	NP_ADE02	Pre-histone-like nucleoprotein (Pre-core protein VII) (pVII) [Cleaved into: Histone-like nucleoprotein (NP) (Core protein VII)]	L2	Human adenovirus C serotype 2 (HAdV-2) (Human adenovirus 2)	198
+P68976	P68976	reviewed	E3145_ADE02	Early 3 14.7 kDa protein (E3-14.7k)		Human adenovirus C serotype 2 (HAdV-2) (Human adenovirus 2)	128
+P89083	P89083	reviewed	E434_ADE09	Early E4 34 kDa protein		Human adenovirus D serotype 9 (HAdV-9) (Human adenovirus 9)	292
+Q9JFM0	Q9JFM0	unreviewed	Q9JFM0_ADE08	14.7 kDa protein (14.7K protein) (14.7kDa)	E3	Human adenovirus D serotype 8 (HAdV-8) (Human adenovirus 8)	130
+Q9YLA0	Q9YLA0	unreviewed	Q9YLA0_ADE09	Early E1A protein	E1A	Human adenovirus D serotype 9 (HAdV-9) (Human adenovirus 9)	189

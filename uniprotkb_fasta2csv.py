@@ -7,8 +7,8 @@ import os
 import sys
 import pandas as pd
 
-# sys.argv[1] = UniRef90 fasta file with representative protein sequences for human viral proteins
-# sys.argv[2] = UniRef90 metadata for human viral protein clusters
+# sys.argv[1] = UniRef90 fasta file with representative protein sequences
+# sys.argv[2] = UniRef90 metadata for proteins
 # sys.argv[3] = desired save name for csv file with compiled data
 
 uniprotkb_fasta = sys.argv[1]
@@ -46,8 +46,6 @@ fastaList.append(seq)
 
 # read metadata into dataframe
 df = pd.read_csv(uniprotkb_metadata, sep='\t')
-# drop columns that are not useful
-df.drop(columns=['Status'], inplace=True)
 
 # put fasta sequences from above into dataframe
 repseqDict = {'Entry':seqIDList,
@@ -61,7 +59,8 @@ df2.sort_values(by=['Entry'], inplace=True)
 # add new column to the metadata dataframe that contains the representative sequence
 df['Representative Sequence'] = df2['Representative Sequence']
 
-# filter out human proteins if accidentally included and only viral proteins are desired
+#UNCOMMENT THE BELOW IF USING NON-HUMAN SEQUENCES
+# filter out human proteins if accidentally included
 # df = df[~df['Organism'].isin(['Homo sapiens (Human)'])]
 
 # sort values by original index
