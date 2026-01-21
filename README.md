@@ -1,7 +1,7 @@
 # Library-Design
 Command line Python scripts for creating diverse oligonucleotide libraries from a set of protein tiles, including Golden Gate cloning overhangs.
 
-# Create a conda environment from required_packages_Lib.txt, which will automatically name the environment
+# Create a conda environment from required_packages_Lib.txt, which will automatically name the environment. The desired conda channels are conda-forge and bioconda.
 `conda env create -f required_packages_Lib.txt`
 
 `conda activate lib-design`
@@ -11,6 +11,12 @@ Use the scripts `uniref_fast2csv.py` or `uniprotkb_fast2csv.py` to generate Pyth
 
 Example usage:
 `python uniprotkb_fasta2csv.py /path/to/protein_fasta.fa /path/to/metadata.csv your_proteins.csv`
+
+Two example files are provided to test this script: example_viral_proteins.fasta (a fasta file with a set of protein sequences, accessioned from Uniprotkb from a list of accession numbers) and example_viral_protein_metadata.tsv (accessioned from Uniprot IDs, in the results table, manually selecting desired columns and specifying "tsv" under "Download Format"). 
+
+Usage:
+`python uniprotkb_fasta2csv.py example_viral_proteins.fasta example_viral_protein_metadata.tsv`
+
 
 # Generate protein tiles from the generated list of proteins
 Use the script `generate_tiles.py` to create all possible tiles of a desired amino acid length to query from the list of proteins. Specify the desired tile length, the desired distance between tiles (we recommend 10 amino acids for thorough tiling), and if your generated .csv file originated from Uniref or UniprotKB metadata.
@@ -25,9 +31,9 @@ This script will generate three .csvs: one with all possible tile sequences, one
 We recommend moving forward to further design steps with the unique-tiles.csv.
 
 # Generate oligonucleotide sequences from the created protein tiles.
-Use the script `domains_to_codon_opt_oligos.py` to reverse-translate the generated protein tiles into oligonucleotide sequences codon-optimized for human expression systems. This script will also ensure no oligonucleotides contain BsmBI cut sites, making them compatible for Golden Gate cloning applications, and will avoid polyC tracks that complicate high-throughput sequencing readouts.
+Use the script `domains_to_codon_opt_oligos.py` to reverse-translate the generated protein tiles into oligonucleotide sequences codon-optimized for any expression system. This script will also ensure no oligonucleotides contain BsmBI cut sites, making them compatible for Golden Gate cloning applications, and will avoid polyC tracks that complicate high-throughput sequencing readouts. The species that will be used for expression and codon optimization should be inputted as follows: h_sapiens, m_musculus, e_coli, etc.
 
-Example usage: `python domains_to_codon_opt_oligos.py /path/to/your_proteins_unique-tiles.csv 'desired_library_name'
+Example usage: `python domains_to_codon_opt_oligos.py desired_specices /path/to/your_proteins_unique-tiles.csv 'desired_library_name'
 
 The script will generate a .csv entitled `desired_library_name_codon-opt-oligos.csv`.
 
